@@ -1,0 +1,14 @@
+{
+  "esnext": true,
+  "requireTrailingComma": null,
+  "disallowSpaceAfterObjectKeys": true,
+  "disallowSpacesInFunctionExpression": null,
+  "disallowSpacesInNamedFunctionExpression": null,
+  "disallowSpacesInFunctionDeclaration": null,
+  "disallowSpacesInAnonymousFunctionExpression": null,
+  "disallowQuotedKeysInObjects": false,
+  "requireSpacesInAnonymousFunctionExpression": null,
+  "requireSpacesInsideObjectBrackets": null,
+  "requireCamelCaseOrUpperCaseIdentifiers": null,
+  "safeContextKeyword": null
+}

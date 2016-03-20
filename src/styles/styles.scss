@@ -1,0 +1,14 @@
+a[ng-click] {
+  cursor: pointer;
+}
+
+dir-pagination-controls {
+  ul.pagination {
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+      width: 25px;
+    }
+  }
+}

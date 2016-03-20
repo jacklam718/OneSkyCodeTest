@@ -1,0 +1,30 @@
+<div class="phrase-bar">
+  <div class='row-fluid project-nav-phrase-meta'>
+    <ol class='list-unstyled project-nav-phrase-meta-list'>
+      <li class='span4 active'>
+        <a ng-click="phraseCtrl.onStatusFilter('visible')">
+          <span class='highlight'>
+            {{ phraseCtrl.numberOfVisible }}
+          </span>
+          visible phrases
+        </a>
+      </li>
+      <li class='span4'>
+        <a ng-click="phraseCtrl.onStatusFilter('hidden')">
+          <span class='highlight'>
+            {{ phraseCtrl.numberOfHidden }}
+          </span>
+          hidden phrases
+        </a>
+      </li>
+      <li class='span4'>
+        <a ng-click="phraseCtrl.onStatusFilter()">
+          <span class='highlight'>
+            {{ phraseCtrl.totalOfPhrases }}
+          </span>
+          phrases in total
+        </a>
+      </li>
+    </ol>
+  </div>
+</div>

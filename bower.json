@@ -1,0 +1,29 @@
+{
+  "name": "mockup",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "jack lam <jacklam718@gmail.com> (https://github.com/jacklam718)"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularUtils-pagination": "angular-utils-pagination#^0.11.0",
+    "angular": "^1.5.2",
+    "angular-sanitize": "^1.5.2",
+    "angular-ui-router": "^0.2.18",
+    "angular-dialog-service": "^5.3.0",
+    "angular-tooltips": "^1.0.7",
+    "ng-dialog": "ngDialog#^0.5.9",
+    "lodash": "^4.6.1",
+    "ngstorage": "^0.3.10"
+  }
+}

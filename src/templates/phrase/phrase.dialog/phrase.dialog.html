@@ -1,0 +1,25 @@
+<div class="phrase-dialog">
+  <div aria-labelledby='modal-note-to-translators' class='modal-note-to-translators modal-phrase'>
+    <form>
+        <div class='modal-header'>
+          <button class='close' ng-click="onCloseDialog()" type='button'>×</button>
+          <h3 id='myModalLabel'>Note to translators</h3>
+        </div>
+        <div class='modal-body'>
+          <label class='hide' for='notes-to-translator'>Note to Translators</label>
+          <textarea
+            class='input-block-level' id='notes-to-translator'
+            name='notes-to-translator'
+            placeholder='Write a note to help translators understand the context of your phrase, for example, This phrase belongs to the welcome screen.'
+            rows='3'
+            ng-model="phraseNote"
+          >
+          </textarea>
+        </div>
+        <div class='modal-footer'>
+          <button class='btn' ng-click="onCloseDialog()">Cancel</button>
+          <button class='btn btn-primary' ng-click="onSaveNote()">Save</button>
+        </div>
+    </form>
+  </div>
+</div>
