@@ -4,7 +4,7 @@ import PhraseService from './phrase/phrase.service';
 import PhraseNoteStorageService from './phrase/phrase-note.storage.service';
 
 const MODULE_NAME = 'OneSkyCodeTest.services.module';
-let   services = angular.module(MODULE_NAME, []);
+angular.module(MODULE_NAME, []);
 
 register(MODULE_NAME)
   .service('PhraseService', PhraseService)

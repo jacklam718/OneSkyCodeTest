@@ -13,7 +13,7 @@ import servicesModule from './services/services.module';
 window._ = lodash;
 
 const MODULE_NAME = 'OneSkyCodeTest';
-const module = angular.module(MODULE_NAME, [
+angular.module(MODULE_NAME, [
   uiRouter,
   ngSanitize,
   phraseModule,

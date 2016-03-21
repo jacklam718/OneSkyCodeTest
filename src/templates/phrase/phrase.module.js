@@ -1,6 +1,5 @@
 import register from 'register';
 import phraseRoute from './phrase.route';
-import phraseTable from './phrase.table/phrase.table';
 import PhraseCtrl from './phrase.ctrl';
 import PhraseDialogProvider from './phrase.dialog/phrase.dialog';
 

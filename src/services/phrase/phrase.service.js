@@ -69,5 +69,5 @@ class PhraseService {
   }
 }
 
-PhraseService.$inject = ['$q', '$localStorage'];
+PhraseService.$inject = ['$q'];
 export default PhraseService;
